@@ -141,13 +141,11 @@ def process_b_step(message):
         variance = float(current_user.sigma)
         a = float(current_user.a)
         b = float(current_user.b)
-
         z1 = (a - mu) / variance
         z2 = (b - mu) / variance
         z1area = st.norm.cdf(z1)
         z2area = st.norm.cdf(z2)
         area = z2area - z1area
-
         sigma = math.sqrt(variance)
         # x = np.linspace(a, b, 100)
 
