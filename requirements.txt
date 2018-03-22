@@ -1,3 +1,15 @@
 python-telegram-bot
 cherrypy
 pyTelegramBotAPI
+
+
+telebot
+matplotlib.pyplot as plt
+numpy
+matplotlib.mlab
+mlab
+scipy.stats
+math
+os
+norm
+Image
