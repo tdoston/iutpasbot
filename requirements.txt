@@ -1,15 +1,10 @@
 python-telegram-bot
-cherrypy
+telebot
 pyTelegramBotAPI
 
-
-telebot
-matplotlib.pyplot as plt
 numpy
-matplotlib.mlab
+matplotlib
 mlab
-scipy.stats
-math
-os
+scipy
 norm
 Image
